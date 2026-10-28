@@ -1,0 +1,22 @@
+{"id": "q01", "question": "What UBRR value do I need for 9600 baud at 8MHz?", "relevant_keywords": ["UBRR", "baud"], "requires_tool": true, "expected_tool": "calc_baud_rate_ubrr"}
+{"id": "q02", "question": "What ADC prescaler should I use at 16MHz to stay in the recommended range?", "relevant_keywords": ["ADC", "prescaler"], "requires_tool": true, "expected_tool": "calc_adc_prescaler"}
+{"id": "q03", "question": "What is Port A used for besides digital I/O?", "relevant_keywords": ["Port A", "A/D Converter"], "requires_tool": false}
+{"id": "q04", "question": "What happens when the RESET pin is held low?", "relevant_keywords": ["reset", "minimum pulse"], "requires_tool": false}
+{"id": "q05", "question": "What is the recommended ADC input clock frequency range for full 10-bit resolution?", "relevant_keywords": ["ADC", "50", "200"], "requires_tool": false}
+{"id": "q06", "question": "What's the maximum SPI clock speed supported by the Bluetooth module?", "relevant_keywords": [], "requires_tool": false, "expect_refusal": true}
+{"id": "q07", "question": "What happens to the I/O pins during a reset?", "relevant_keywords": ["tri-stat", "reset"], "requires_tool": false}
+{"id": "q08", "question": "What is the formula for the TWI SCL clock frequency?", "relevant_keywords": ["TWBR", "SCL frequency"], "requires_tool": false}
+{"id": "q09", "question": "What happens when the Watchdog Timer period expires?", "relevant_keywords": ["Watchdog", "expires"], "requires_tool": false}
+{"id": "q10", "question": "Which CPOL/CPHA combination causes SPI data to be sampled on the rising edge of SCK?", "relevant_keywords": ["CPOL", "Rising"], "requires_tool": false}
+{"id": "q11", "question": "What is the difference between the RWW and NRWW flash sections?", "relevant_keywords": ["Read-While-Write", "NRWW"], "requires_tool": false}
+{"id": "q12", "question": "What sleep mode does the ATmega32 enter when SM2:0 is set to 010?", "relevant_keywords": ["Sleep Mode", "Power-down"], "requires_tool": false}
+{"id": "q13", "question": "What is the typical EEPROM write time when writing from the CPU?", "relevant_keywords": ["EEPROM write", "8.5ms"], "requires_tool": false}
+{"id": "q14", "question": "What are the four pins that make up the JTAG Test Access Port?", "relevant_keywords": ["Test Access Port", "TMS"], "requires_tool": false}
+{"id": "q15", "question": "What UBRR value is needed for 4800 baud at 1MHz using double speed mode?", "relevant_keywords": ["UBRR", "double speed"], "requires_tool": true, "expected_tool": "calc_baud_rate_ubrr"}
+{"id": "q16", "question": "What ADC prescaler should I use at 4MHz to stay in the recommended range?", "relevant_keywords": ["ADC", "prescaler"], "requires_tool": true, "expected_tool": "calc_adc_prescaler"}
+{"id": "q17", "question": "What is the SPI SCK frequency when SPI2X is enabled with SPR1:0 set to 00?", "relevant_keywords": ["SPI2X", "SCK Frequency"], "requires_tool": false}
+{"id": "q18", "question": "What triggers a Brown-out Reset?", "relevant_keywords": ["Brown-out", "V CC"], "requires_tool": false}
+{"id": "q19", "question": "What is the maximum ambient operating temperature of the onboard WiFi antenna?", "relevant_keywords": [], "requires_tool": false, "expect_refusal": true}
+{"id": "q20", "question": "Which Port C pins have special pull-up behavior when the JTAG interface is enabled?", "relevant_keywords": ["JTAG", "Port C"], "requires_tool": false}
+{"id": "q21", "question": "What does the Frame Error flag in the USART indicate?", "relevant_keywords": ["Frame Error", "stop bit"], "requires_tool": false}
+{"id": "q22", "question": "How many I/O pins does Port B provide?", "relevant_keywords": ["Port B", "8-bit"], "requires_tool": false}

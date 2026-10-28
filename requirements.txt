@@ -1,0 +1,17 @@
+# --- Phase 1-2: ingestion & chunking ---
+pymupdf              # PDF text + font-size extraction (heading detection)
+pdfplumber            # ruled-table extraction (register maps)
+reportlab             # only used to generate a synthetic test datasheet
+
+# --- Phase 3: hybrid retrieval ---
+sentence-transformers  # dense embeddings (downloads model on first run)
+faiss-cpu               # dense vector index
+rank-bm25               # sparse/keyword retrieval
+
+# --- Phase 4: agent loop + tool use ---
+openai                  # client works with any OpenAI-compatible endpoint (Groq, Ollama, OpenAI)
+
+# --- general ---
+tqdm
+python-dotenv
+numpy

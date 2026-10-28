@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/*.pdf
+data/processed/*.json
+data/processed/*.jsonl
+data/index/*.faiss
+data/index/*.pkl
+data/index/*.json
+.env
+!.env.example
