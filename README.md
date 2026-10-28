@@ -496,30 +496,6 @@ regex rule ORed alongside it is safer than loosening the general threshold.
   *does* cover. It's a triage signal to point you at which answers to read,
   not a metric to report on its own.
 
-## Elevator pitch (for an interview)
-
-Four sentences that cover the why, not just the what:
-
-1. **Why hybrid retrieval, not just embeddings?** Datasheets are full of
-   exact register names and numeric values that dense embeddings blur
-   together semantically — measured cases where BM25 alone outranked dense
-   alone on queries sharing literal vocabulary with the source, and dense
-   alone won on queries that didn't (see Phase 3 notes above).
-2. **Why tools instead of trusting the model's arithmetic?** Confirmed,
-   not assumed: the agent answered an ADC prescaler question correctly
-   *without* calling its calculator tool — right answer, unverified
-   arithmetic, caught by the verifier. Tools exist because that failure
-   mode is real, not hypothetical.
-3. **Why a separate verification pass?** Because "the answer is correct"
-   and "the answer is grounded" are different properties, demonstrated
-   three times independently on the same question pattern — see
-   [FINDINGS.md](FINDINGS.md).
-4. **Why measure instead of asserting it doesn't hallucinate?** The eval
-   harness produced a three-category framework for *why* grounding fails
-   (hallucination / retrieval miss / structurally unretrievable), plus
-   confirmed limitations in the verifier itself (citation mis-attribution,
-   a refusal-heuristic gap) — the actual answer to "how do you know it's
-   not hallucinating," not a claim that it doesn't.
 
 ## Repo layout
 ```
